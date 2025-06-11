@@ -17,11 +17,7 @@ Elle sert de **serveur web** avec **Nginx** installé automatiquement.
 
 ## 📁 Fichiers du dossier
 
-frontend/
-├── packer.json # Fichier Packer principal (template AMI).
-├── README.md # Documentation de cette VM.
-└── scripts/.
-└── install-nginx.sh # Script shell exécuté par Packer pour installer Nginx.
+<pre lang="md"> ``` frontend/ ├── packer.json # Fichier Packer principal (template AMI) ├── README.md # Documentation de cette VM └── scripts/ └── install-nginx.sh # Script shell exécuté par Packer pour installer Nginx ``` </pre>
 
 
 ---
